@@ -3,8 +3,7 @@ from . import views
 from django.conf.urls import include
 from django.contrib import admin
 
-
-
 urlpatterns = [
     url(r'^$', views.todo_list, name='todo_list'),
+    url(r'^todo/(?P<pk>\d+)/$', views.todo_detail, name='todo_detail'),
 ]
