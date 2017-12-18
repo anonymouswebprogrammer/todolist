@@ -5,13 +5,12 @@
     <body>
       <div>
           <h1><a href="/">Django Girls Blog</a></h1>
-          <p>lol</p>
       </div>
 
       {% for todo in todos %}
           <div>
-              <p>deadline: {{ post.deadline_date }}</p>
               <h1><a href="">{{ todo.title }}</a></h1>
+              <p>deadline: {{ post.deadline_date }}</p>
               <p>{{ todo.text|linebreaksbr }}</p>
           </div>
       {% endfor %}
