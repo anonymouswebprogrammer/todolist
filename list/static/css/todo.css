@@ -37,7 +37,7 @@ h1, h2, h3, h4 {
 }
 
 .top-menu{
-  color: #ffffff;
+  color: #f4f4f4;
   float: right;
   font-size: 26pt;
   margin-right: 20px;
@@ -53,6 +53,6 @@ h1, h2, h3, h4 {
 }
 
 a.top-menu:link, a.top-menu:visited, a.top-menu:active, a.top-menu:hover{
-  color: FFFFFF;
+  color: #FFFFFF;
   text-decoration: none;
 }
