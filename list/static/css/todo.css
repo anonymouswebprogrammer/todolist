@@ -1,10 +1,16 @@
 .page-header {
-  background-color: #ff9400;
+  background-color: #272727;
   margin-top: 0;
   padding: 20px 20px 20px 40px;
 }
 
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+.page-header h1, {
+  color: #9E9B95;
+  font-size: 36pt;
+  text-decoration: none;
+}
+
+.page-header h1 a:hover, .page-header h1 a:active, .page-header h1 a:visited {
   color: #ffffff;
   font-size: 36pt;
   text-decoration: none;
@@ -46,22 +52,22 @@ h1, h2, h3, h4 {
   color: #000000;
 }
 
-a.top-menu: link{
+a.top-menu:link{
   color: FFFFFF;
   text-decoration: none;
 }
 
-a.top-menu: visited{
+a.top-menu:visited{
   color: FFFFFF;
   text-decoration: none;
 }
 
-a.top-menu: active{
+a.top-menu:active{
   color: FFFFFF;
   text-decoration: none;
 }
 
-a.top-menu: hover{
+a.top-menu:hover{
   color: FFFFFF;
   text-decoration: none;
 }
