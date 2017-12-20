@@ -1,6 +1,7 @@
 .page-header {
   background-color: #272727;
   margin-top: 0;
+  text-align: center;
   padding: 20px 20px 20px 40px;
 }
 
@@ -16,10 +17,6 @@
   text-decoration: none;
 }
 
-.content {
-  margin-left: 40px;
-}
-
 h1, h2, h3, h4 {
   font-family: 'Lobster', cursive;
 }
@@ -30,6 +27,22 @@ h1, h2, h3, h4 {
 
 .save {
   float: right;
+}
+
+.image {
+  box-shadow: 0 7px 15px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  height: 110px;
+}
+
+.left{
+  float: left;
+  width: 60%;
+}
+
+.right{
+  float: right;
+  width: 30%;
+  margin-right: 30px;
 }
 
 .post-form textarea, .post-form input {
@@ -52,7 +65,30 @@ h1, h2, h3, h4 {
   color: #000000;
 }
 
+.mainfield{
+  margin-top: 60px;
+}
+
 #shadow{
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   width: 100%;
+}
+
+#height{
+  height: 150px;
+}
+
+#recipehead{
+  font-family: 'Lobster';
+  margin-bottom: 20px;
+}
+
+#todotitle{
+  font-family: 'Cambria';
+  font-size: 30px;
+}
+
+#buttons{
+  text-align: right;
+  float: right;
 }
