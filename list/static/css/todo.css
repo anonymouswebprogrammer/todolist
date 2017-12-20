@@ -53,6 +53,6 @@ h1, h2, h3, h4 {
 }
 
 #shadow{
-  box-shadow: 5px 10px #888888;
-  width: 100px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  width: 100%;
 }
