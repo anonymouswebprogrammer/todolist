@@ -1,16 +1,29 @@
 {% extends 'list/base.html' %}
 
 {% block content %}
-<div class="todo">
-  <h1>{{ todo.title }} <p id="buttons"> {% if user.is_authenticated %}
-    <a class="btn btn-default" href="{% url 'todo_edit' pk=todo.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>
-    <a class="btn btn-default" href=""><span class="glyphicon glyphicon-trash"></span></a>
-    {% endif %} </p></h1>
-  {% if todo.deadline_date %}
-  <div class="date">
-    <p>{{ todo.deadline_date }}</p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="todo">
+        <h1>{{ todo.title }} <p id="buttons"> {% if user.is_authenticated %}
+          <a class="btn btn-default" href="{% url 'todo_edit' pk=todo.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>
+          <a class="btn btn-default" href=""><span class="glyphicon glyphicon-trash"></span></a>
+          {% endif %} </p></h1>
+          {% if todo.deadline_date %}
+          <div class="date">
+            <p>{{ todo.deadline_date }}</p>
+          </div>
+          {% endif %}
+          <p>{{ todo.text|linebreaksbr }}</p>
+        </div>
+      </div>
+    <div class="col-md-6">
+      <img src="http://restaurantsumo.com/wp-content/uploads/2017/01/sushi_and_sashimi_for_two.jpg" class="img-thumbnail" class="height">
+      <img src="cinqueterre.jpg" class="img-thumbnail" alt="Cinque Terre">
+      <img src="cinqueterre.jpg" class="img-thumbnail" alt="Cinque Terre">
+      <img src="cinqueterre.jpg" class="img-thumbnail" alt="Cinque Terre">
+      <img src="cinqueterre.jpg" class="img-thumbnail" alt="Cinque Terre">
+  </div>
     </div>
-    {% endif %}
-    <p>{{ todo.text|linebreaksbr }}</p>
   </div>
   {% endblock %}
