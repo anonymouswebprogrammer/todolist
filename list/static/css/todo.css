@@ -10,7 +10,7 @@
   text-decoration: none;
 }
 
-.page-header h1 a:hover, .page-header h1 a:active, .page-header h1 a:visited {
+.page-header h1 a:hover, .page-header h1 a:active, .page-header h1 a:visited, .page-header h1 a {
   color: #ffffff;
   font-size: 36pt;
   text-decoration: none;
