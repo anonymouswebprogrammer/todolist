@@ -8,7 +8,7 @@ class Todo(models.Model):
     deadline_date = models.DateTimeField(default=timezone.now)
     completed_date = models.DateTimeField(blank=True, null=True)
     completed = models.BooleanField(default=False)
-
+    
     def complete(self):
         self.completed_date = timezone.now()
         self.completed = True
