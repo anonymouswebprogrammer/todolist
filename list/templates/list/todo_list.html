@@ -4,9 +4,7 @@
 {% for todo in todos %}
 <div class="post">
   <h1><a href="{% url 'todo_detail' pk=todo.pk %}">{{ todo.title }}</a></h1>
-  <div class="date">
-    <p>Deadlines: {{ todo.deadline_date }}</p>
-  </div>
+  <p>deadline: {{ todo.deadline_date }}</p>
   <p>{{ todo.text|linebreaksbr }}</p>
 </div>
 {% endfor %}

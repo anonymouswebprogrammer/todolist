@@ -5,4 +5,4 @@ class TodoForm(forms.ModelForm):
 
     class Meta:
         model = Todo
-        fields = ('title', 'text',)
+        fields = ('title', 'text', 'deadline_date',)
