@@ -17,6 +17,16 @@
   text-decoration: none;
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2A2B2A;
+    color: #FCFBF8;
+    text-align: center;
+}
+
 h1, h2, h3, h4 {
   font-family: 'Lobster', cursive;
 }
