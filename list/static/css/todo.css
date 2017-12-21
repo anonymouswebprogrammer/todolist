@@ -77,12 +77,10 @@ h1, h2, h3, h4 {
   margin: 25px;
 }
 
-footer {
-  text-align: center;
-  background-color: ##FCFBF9;
-  font-family: 'Cambria';
-  width: 100%;
-  float: center;
+.imagecaption{
+  font-family: 'Cambria' !important;
+  font-size: 20px !important;
+  text-align: center !important;
 }
 
 #shadow{
@@ -107,4 +105,8 @@ footer {
 #buttons{
   text-align: right;
   float: right;
+}
+
+#center{
+  text-align: center;
 }
