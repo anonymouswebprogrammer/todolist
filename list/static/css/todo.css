@@ -1,9 +1,11 @@
 .page-header {
   background-color: #272727;
-  margin-top: 0;
   text-align: center;
   padding: 20px 20px 20px 40px;
-  position: fixed;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  width: 100%;
+  position: relative;
+  top: 0px;
 }
 
 .page-header h1, .page-header h1 a:active, .page-header h1 a {
@@ -34,13 +36,9 @@ h1, h2, h3, h4 {
   color: #464646;
 }
 
-.save {
-  float: right;
-}
-
 .image {
   box-shadow: 0 7px 15px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  height: 110px;
+  height: 100%;
 }
 
 .left{
@@ -112,7 +110,8 @@ h1, h2, h3, h4 {
 }
 
 .mainimage{
-  width: 100%;
+  width: 100% !important;
   z-index: 0;
-  height: 20px;
+  max-height: 20px !important;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
